@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008000"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dawood_abrar"
+            android:textSize="30sp"
+            />
+
+        <ImageView
+            android:id="@+id/videocall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="320dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/baseline_video_call_black_18dp"
+            android:layout_marginStart="320dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/call_phone_icon"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@+id/videocall"
+            android:layout_toRightOf="@+id/videocall"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text"
+        android:layout_weight="1"
+        android:hint="@string/enter_your_message"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_toEndOf="@+id/edit_text"
+        android:layout_toRightOf="@+id/edit_text" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="play">Play</string>
+    <string name="enter_the_data_to_send_for_next_activity">Enter The Data To Send For Next Activity</string>
+    <string name="enter_the_data">Enter The Data</string>
+    <string name="sending_data">Sending Data</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="send">send</string>
+    <string name="dawood_abrar">Dawood Abrar</string>
+</resources>
